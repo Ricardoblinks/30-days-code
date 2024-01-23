@@ -19,12 +19,12 @@ def apiRequest(endpoint, method='get', body={}):
     else:
         response = requests.get(endpoint)
 
-    if response.status_code == '200':
-        return response.json()
-    else:
-        return response.json()
+    return response.json()
     
 
+# an endpoint to get user ip address
 endpoint = 'https://api64.ipify.org?format=json'
 
+
+# print the results gotten from the endpoint
 print(apiRequest(endpoint, "get"))
