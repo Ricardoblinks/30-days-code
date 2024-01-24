@@ -42,4 +42,16 @@ count, mean, std, min, percentages, and max of your data
 describe = data.describe()
 print(describe)
 
+# to filter your data by a particular condition
 
+filtered_data = data[data['IsFraud'] == 1]
+print(filtered_data)
+
+
+# sort the data 
+sorted_data = data.sort_values(by='IsFraud', ascending=False)
+print(sorted_data)
+
+# Grouping data
+grouped_data = data.groupby('Dependent').mean()
+print(grouped_data)

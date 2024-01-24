@@ -73,11 +73,11 @@ def Convert2Text(file):
 
 
 # store the path of whatever 
-filepath = '/home/ricardoblinks/Documents/updatedCv.pdf'
+filepath = 'Screenshot 2024-01-10 202609.png'
 
 # call the convert2text function and pass the filepath
 converted = Convert2Text(filepath)
 
-#printed result 
+#printed result
 print(converted)
 
