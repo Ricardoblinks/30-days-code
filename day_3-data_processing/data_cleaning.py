@@ -12,6 +12,7 @@ in general check if padas can read your file extension by basically typing panda
 
 the above was tested with vs code
 """
+
 data = pd.read_csv("day_3-data_processing\\taxreturn.csv")
 
 # for information about the data
