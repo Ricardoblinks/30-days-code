@@ -20,4 +20,6 @@ model.fit(X, Y)
 X_new = np.array([[6, 7]])  # New data with two features
 y_pred = model.predict(X_new)
 
+# print out the result
+
 print(y_pred)
