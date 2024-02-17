@@ -16,6 +16,6 @@ def generate_qr_code(data, filename):
     print(f"QR code saved as {filename}")
 
 # Example usage
-data = "https://www.example.com"
-filename = "example_qr_code.png"
+data = "https://www.demo.nearbyvendor.com"
+filename = "generated.png"
 generate_qr_code(data, filename)
